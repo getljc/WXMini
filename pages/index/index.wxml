@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='title' style='padding-top:{{(headerHeight + statusBarHeight)/2 - 12}}px'>
+    <text>心博士互动平台移动端V1.0</text>
+  </view>
+  <view class="wrapper">
+    <radio-group class="choice-content" bindchange="selectTemplate">
+      <view class="single-wrapper">
+        <label class="label radio-label">
+          <radio color="#006eff" value="grid" checked="true" id="grid"/>
+          <text>多人会议</text>
+        </label>
+        <label for="grid" class="preview-item selected">
+          <image src="/images/grid.png"/>
+        </label>
+      </view>
+    </radio-group>
+  </view>
+</view>
+
+<view class='bottom-btn'>
+  <button type="primary" bindtap="enterRoom" hover-class="none">进入模板</button>
+</view>
