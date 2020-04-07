@@ -10,7 +10,7 @@
     <button class="btn btn-random" hover-class="btn-hover" bindtap="randomUserID">随机</button>
 	</view>
 	<view class="choice-content">
-		<text>场景选择1</text>
+		<text>场景选择</text>
     <radio-group class="radio-group-choice" bindchange="selectScene">
       <label>
           <radio color='#006eff' value="rtc" checked='true' id="open" />
